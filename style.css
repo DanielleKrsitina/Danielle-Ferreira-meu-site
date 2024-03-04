@@ -1,0 +1,277 @@
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;     
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.jornada-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+/* FIM DO ESTILO GERAL */
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #888686;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: rgb(252, 252, 252);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 80px;
+}
+
+.jornada-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(99, 13, 180);
+    transform: scale(1.05);
+}
+/* FIM DO ESTILO DO CABEÇALHO */
+
+
+
+/*ESTILO DO TOPO DO SITE */
+
+section.topo-do-site{
+    padding: 60px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.topo-do-site h1{
+    color: aliceblue;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: aliceblue;
+    margin: 40px 0;
+}
+/* FIM DO ESTILO DO TOPO DO SITE */
+
+
+/* COMEÇO DO ESTILO DA PÁGINA DE PROJETOS */
+.page-container h1{
+    padding: 20px;
+    margin: 50px 50px;
+    color: blueviolet;
+    text-align: center;
+    font-size: 26px;
+}
+
+.page-container p{
+    padding: 20px;
+    margin: 50px 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 19px;
+}
+
+/* CENTRALIZANDO AS CAPTURAS DE TELAS DO PROJETO */
+
+.page-container img{
+    margin: 100px 365px;
+    justify-content: center;
+    display: center;
+}
+/* FIM DAS CAPTURAS DE TELAS DO PROJETO */
+
+
+/* CENTRALIZANDO O LINK DO "CLIQUE AQUI */
+
+.link-projeto{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-projeto a{
+    text-decoration: none;
+    color: rgb(221, 206, 236);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* CENTRALIZANDO O "DESIGN DE SISTEMAS - PROTOTPO" */
+
+.projeto-prototipo{
+    padding: 80px;
+    margin: 50px 78px;
+    color: blueviolet;
+    text-align: center; 
+}
+
+.projeto-prototipo img{
+    margin: 100px 370px;
+    justify-content: center;
+    display: center;
+    padding: 20px;
+}
+/* FIM DO "DESIGN DE SISTEMAS - PROTOTPO" */
+
+/* COMEÇO DO ESTILO DA PAGE "FORMAÇÃO" */
+
+.page-formação h1{
+    padding: 0px;
+    margin: 50px 50px;
+    color: rgb(138, 43, 226);
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.0;
+}
+.paragrafo-dois h1{
+    margin-bottom: 100px;
+    margin: 50px 50px;
+    color: rgb(138, 43, 226);
+    text-align: center;
+    font-size: 19px;
+    line-height: 2.5;
+}
+.paragrafo-dois p {
+    margin-bottom: 100px;
+    margin: 50px 30px;
+    color: rgb(245, 240, 251);
+    text-align: center;
+    font-size: 19px;
+    line-height: 2.5;
+}
+/* COMEÇO DO ESTILO DA PAGE "FORMAÇÃO" */
+
+/* COMEÇO DO ESTILO DA PAGE "SOBRE MIM" */
+
+.sobre-mim {
+    text-align: center;
+}
+.sobre-mim img{
+    margin: 70px auto;
+    display: block;
+    padding: 20px;
+}
+
+.sobre-mim h1{
+    margin: 0px 50px;
+    color: rgb(246, 242, 249);
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+div.sobre-mim p {
+    padding: 0px;
+    margin: 50px 50px;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 17px;
+    line-height: 2px;
+}
+/* COMEÇO DO ESTILO DA PAGE "SOBRE MIM" */
+
+/* COMEÇO DO ESTILO DA PAGE "CONTATO" */
+
+.body-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    margin: 0;
+}
+
+.jornada-contato{
+    background-color: black;
+}
+
+.contato-msg h1{
+    color: blueviolet;
+}
+
+.contato-msg{
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contato-msg form{
+    text-align: left;
+    color: blueviolet;
+    font-size: 19px;
+}
+
+.contato-msg label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.contato-msg input,
+.contato-msg textarea {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color:rgba(0, 0, 0, 0.551);
+}
+
+.contato-msg input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.contato-msg input, form textarea{
+    background-color: rgb(249, 249, 249);
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.551);
+}
+.contato-msg textarea{
+    resize: none;
+    height: 200px;
+}
